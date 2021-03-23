@@ -15,7 +15,4 @@ var app = new Vue(
       img:'assets/img/vue.png'
     }
   }
-)
-;
-
-console.log('ok');
+);
