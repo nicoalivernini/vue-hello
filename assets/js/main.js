@@ -11,6 +11,7 @@ var app = new Vue(
     data: {
       message: 'La prima volta che scrivo con Vue',
       input: 'Ciao sono un input.',
+      vuoto: '',
     }
   }
 )
