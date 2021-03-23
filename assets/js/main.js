@@ -9,7 +9,8 @@ var app = new Vue(
     //collego vue al DOM
     el: '#root',
     data: {
-      message: 'La prima volta che scrivo con Vue'
+      message: 'La prima volta che scrivo con Vue',
+      input: 'Ciao sono un input.',
     }
   }
 )
