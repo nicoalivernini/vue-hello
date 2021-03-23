@@ -5,16 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Vue Hello</title>
+  <link rel="stylesheet" href="assets/css/master.css">
 </head>
 <body>
   <!-- Elemento Vue -->
   <div id="root">
+  <!-- Inserisco il testo dal data in h1 -->
   <h1>{{ message }}</h1>
+  <!-- Inserisco il testo, inserito nel data, dell'input nell'h2 -->
   <h2>{{ input }}</h2>
   <input v-model="input" type="text">
+  <!-- Parto con input vuoto e posso scrivere quello che voglio stampando in h2 -->
   <h2>{{ vuoto }}</h2>
   <input v-model="vuoto" type="text" placeholder="Scrivi qui">
-
+  <!-- Inserisco immagine -->
+  <img v-bind:src='img'>
 
   </div>
 

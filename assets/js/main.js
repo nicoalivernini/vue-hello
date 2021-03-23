@@ -12,6 +12,7 @@ var app = new Vue(
       message: 'La prima volta che scrivo con Vue',
       input: 'Ciao sono un input.',
       vuoto: '',
+      img:'assets/img/vue.png'
     }
   }
 )
